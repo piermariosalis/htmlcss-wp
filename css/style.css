@@ -18,6 +18,7 @@ body{
 header{
   height: 400px;
   background-image: url("../img/header_bg.jpg");
+  margin-bottom: 20px;
   position: relative;
 }
 
@@ -34,4 +35,36 @@ nav{
 
 .float-left{
   float: left;
+}
+
+.mt-20{
+  margin-top: 20px;
+}
+
+.mb-20{
+  margin-bottom: 20px;
+}
+
+
+main::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.col-left, .col-right{
+  width: 20%;
+  background: white;
+}
+
+.col-center{
+  width: 50%;
+  background: white;
+  margin: 0 5%;
+}
+
+footer{
+  height: 200px;
+  margin-top: 20px;
+  background: white;
 }
