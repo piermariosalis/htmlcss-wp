@@ -17,20 +17,72 @@ body{
 
 header{
   height: 400px;
+  position: relative;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+
+}
+
+.header-top{
+  height: 380px;
+  border: 10px solid white;
   background-image: url("../img/header_bg.jpg");
-  margin-bottom: 20px;
   position: relative;
 }
 
-nav{
-  width: 100%;
-  height: 80px;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  background: brown;
+.header-top h1{
+  font-size: 28px;
+  font-weight: 600;
 }
 
+.header-logo{
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.header-logo img{
+  width: 50%;
+
+}
+
+/* sezione navbar */
+nav{
+  width: 100%;
+  height: 44px;
+  background-color: #504741;
+}
+
+.navbar ul{
+  list-style: none;
+}
+
+.menu li{
+  display: inline-block;
+  padding: 0 10px;
+  line-height: 44px;
+}
+
+.menu li a{
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+  font-weight: lighter;
+  padding: 0 5px;
+}
+
+
+.menu li:hover{
+  background: lightgrey;
+}
+
+.menu li a:hover{
+  text-decoration: underline;
+
+}
 /* classe utility */
 
 .float-left{
