@@ -109,12 +109,43 @@ main::after{
   background: white;
 }
 
+
+.col-left h2{
+  width: 60%;
+  font-weight: 600;
+}
+
+.rounder-box{
+  border-radius: 10px;
+  background: white;
+  padding: 5px;
+}
+
+.col-header::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.col-left i{
+  padding-right: 10px;
+  font-size: 30px;
+  color: orange;
+}
+
+.p_left{
+  color: grey;
+  margin: 5px 0;
+}
 .col-center{
   width: 50%;
-  background: white;
   margin: 0 5%;
 }
 
+.main-title, .shadow{
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 3px black;
+}
 footer{
   height: 200px;
   margin-top: 20px;
