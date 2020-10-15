@@ -134,7 +134,7 @@ main::after{
 }
 
 .p_left{
-  color: grey;
+  color: #3a9125;
   margin: 5px 0;
 }
 .col-center{
@@ -146,8 +146,29 @@ main::after{
   margin-bottom: 20px;
   text-shadow: 1px 1px 3px black;
 }
+
+.widget {
+  padding: 20px;
+  margin-bottom: 20px;
+}
 footer{
   height: 200px;
   margin-top: 20px;
   background: white;
+}
+
+hr{
+  border-style: inset;
+}
+
+.real{
+  text-align: center;
+  font-style: italic;
+}
+
+.icon{
+  display: inline-block;
+  font-size: 40px;
+  margin-left: 210px;
+  padding-top: 40px;
 }
